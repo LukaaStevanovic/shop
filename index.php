@@ -1,17 +1,7 @@
 <?php 
 require_once "inc/header.php";
-require_once "app/classes/Product.php";
-$products= new Product();
-$products= $products->fetch_all();
+
 ?>
-<?php if(isset($_SESSION["MESSAGE"])): ?>
-    <div class="alert alert-"<?php echo $_SESSION["message"]['type']; ?> alert-dismissable fade <i class="fa fa-share-square" aria-hidden="true"></i>>
-        <?php 
-        echo $_SESSION['message']['text'];
-        unset($_SESSION['message']);
-        ?>
-    </div>
-<?php endif; ?>
 
 <!DOCTYPE html>
 <html lang="en">
