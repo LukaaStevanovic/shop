@@ -1,0 +1,456 @@
+@media screen and (min-width: 992px){
+
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+section{
+    margin: 0;
+}
+p{
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.56);
+}
+html, body{
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+
+/* POCETNA STRANICA */
+header{
+    position: absolute;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+    margin-top: 20px;
+}
+.hero-section{
+    padding-top: 240px;
+    padding-bottom: 150px;
+    background: linear-gradient(0deg, rgba(4, 22, 66, 0.3), rgba(4, 22, 66, 0.3)), url(slike/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    text-shadow: 3px 3px 3px black;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 800;
+}
+.hero-heading{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.hero-heading2{
+    color: #030303;
+    font-size: 35px;
+    font-weight: bold;
+}
+.heading-underline{
+    width: 1030px;
+    max-height: 5px;
+    min-height: 5px;
+    background-color: #030303;
+    margin-top: 6px;
+}
+.heading-underline2{
+    width: 215px;
+    max-height: 5px;
+    min-height: 5px;
+    background-color: #030303;
+    margin-top: 6px;
+}
+.heading-underline3{
+    width: 260px;
+    max-height: 5px;
+    min-height: 5px;
+    background-color: #030303;
+    margin-top: 6px;
+}
+.heading-underline4{
+    width: 105px;
+    max-height: 5px;
+    min-height: 5px;
+    background-color: #030303;
+    margin-top: 6px;
+}
+.heading-underline5{
+    width: 155px;
+    max-height: 5px;
+    min-height: 5px;
+    background-color: #030303;
+    margin-top: 6px;
+}
+
+.features-section{
+        display: flex;
+}
+.f-content{
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.f-content-wrapper{
+    width: 50%;
+    display: flex;
+}
+.orange{
+    background-color: #c5882c;
+}
+.red{
+    background-color: #cc2d27;
+}
+.gray{
+    background-color: #717777;
+}
+.blue{
+    background-color: #4facafd3;
+}
+.f-heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.f-img{
+    margin: 0;
+}
+.f-paragraph{
+    color: white;
+    font-size: 18px;
+}     /*           slider               */
+
+.slider {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 4000px;
+    background-color: rgb(83, 81, 82);
+    height: 600px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -1000px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -2000px;
+  }
+  #slide-4:target ~ .image-container {
+    left: -3000px;
+  }
+  
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: #cc9124;
+  }
+/* */
+.all-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.about-img-wrapper{
+    margin-right: 100px;
+    width: 33%;
+}
+.about-heading{
+    max-width: 370px;
+}
+.about-content{
+    width: 66%;
+}
+.section-heading{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.line-wrapper{
+    max-width: 1200px;
+    height: 1px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e5e5e5;
+    align-items: center;
+}
+.line-notch{
+    background-color: #030303;
+    width: 50px;
+    height: 5px;
+}
+.center{
+    justify-content: center;
+}
+.abt-heading{
+    margin-top: 35px;
+    margin-bottom: 75px;
+}
+.abt-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+}
+.abt-content-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.abt-content{
+    text-align: center;
+    width: 45%;
+}
+.abt-content-heading{
+    font-size: 24px;
+    font-family: 'Open Sans';
+    margin-top: 15px;
+}
+.abt-img{
+    max-width: 100%;
+    border: 3px solid #cc9124;
+}
+
+.main-btn{
+    background-color: #030303;
+    width: 170px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.main-btn:hover{
+    background-color: #2b2a2a;
+}
+.btn-text{
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+.abt-btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+footer{
+    background-color: #cc9124;
+}
+.footer-cnt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-stabt;
+}
+.footer-link{
+    display: block;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.footer-label{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+}
+.form-input-div{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.email-input{
+    margin-right: 10px;
+    flex-grow: 2;
+    height: 100%;
+}
+.subscribe{
+    width: 45%;
+}
+.foot-soc{
+    margin-top: 15px;
+}
+
+
+/* Cart */
+
+.secondary-hero-section{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background: linear-gradient(0deg, rgba(4, 22, 66, 0.3), rgba(4, 22, 66, 0.3)), url(slike/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    text-shadow: 3px 3px 3px black;
+}
+.form-cnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.form-wrapper{
+    background-color: #cc9124;
+    border-radius: 5px;
+    padding: 2px;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+
+
+ /* artists STRANICA */
+
+ .artists{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    align-items: center;
+ }
+
+
+.artists-cnt-wrapper{
+    display: flex;
+    
+    justify-content: center;
+    width: 45%;
+    height: 100%;
+    flex-direction: column;
+}
+.artists-cnt-wrapper img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #cc9124;
+      
+
+}
+.artists-cnt-wrapper.right{
+    text-align: right;
+}
+.artists-heading{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 32px;
+}
+.artists-heading2{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 26px;
+}
+.artists-heading3{
+    font-family: 'Montserrat';
+    font-weight: 450;
+    font-size: 32px;
+}
+
+/* artists */
+
+
+
+
+
+/* CONTACT */
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.message-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
